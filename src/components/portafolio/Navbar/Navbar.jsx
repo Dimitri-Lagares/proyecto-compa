@@ -27,20 +27,20 @@ const Navbar = () => {
           
               <Menu click={click} >
                 <MenuItem onClick={() => changeClick()} >
-                  <MenuItemLink href='/#/portafolio'>HOME</MenuItemLink>
+                  <MenuItemLink href='/proyecto-compa/#/'>HOME</MenuItemLink>
                 </MenuItem>
 
                 <MenuItem onClick={() => changeClick()}>
-                  <MenuItemLink href='/#/administracion'>SOPORTE</MenuItemLink>
+                  <MenuItemLink href='/proyecto-compa/#/administracion'>SOPORTE</MenuItemLink>
                 </MenuItem>
 
                 <MenuItem onClick={() => changeClick()}>
-                  <MenuItemLink href='/#/tabla-usuarios'>CONTACT ME</MenuItemLink>
+                  <MenuItemLink href='/proyecto-compa/#/tabla-usuarios'>CONTACT ME</MenuItemLink>
                 </MenuItem>
 
                 <MenuItem onClick={() => changeClick()} >
 
-                  <MenuItemLink href='/#/mensaje'>ABOUT ME</MenuItemLink>
+                  <MenuItemLink href='/proyecto-compa/#/mensaje'>ABOUT ME</MenuItemLink>
                  
                 </MenuItem>
 

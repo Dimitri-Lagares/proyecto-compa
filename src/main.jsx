@@ -30,7 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Route>
         <Route path="usuarios" element={<Usuarios />} />  
         <Route path="tabla-usuarios" element={<TablaUsuarios/>}/>
-        <Route path="portafolio" element={<Portafolio />} />
         <Route path="mensaje" element={<Mensaje childToParentData={functionToGetchildData}/>}/>
       </Routes>
       </HashRouter>

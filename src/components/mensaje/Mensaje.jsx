@@ -27,7 +27,7 @@ const Mensaje = () => {
                     </Grid>
 
                     <Grid mt={4} item ml={60}>
-                        <a className="button button3" href='/portafolio'>cerrar</a>
+                        <a className="button button3" href='/proyecto-compa/#/'>cerrar</a>
                     </Grid>
                 </Grid>
 
