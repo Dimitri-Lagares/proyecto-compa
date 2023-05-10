@@ -1,34 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css';
+// import Navbar from './components/portafolio/Navbar/Navbar';
+// import { HashRouter, Routes, Route } from 'react-router-dom';
+// import { ProtectedRoute } from './components/protected-route/protected-route';
+// import Portafolio from './components/portafolio/Portafolio.js';
+// import Usuarios from './components/uSuarios/usuarios.js';
+// import TablaUsuarios from './components/tablaUsuarios/tablaUsuarios';
+// import Mensaje from './components/mensaje/mensaje.js';
+// import Administracion from './components/administracion/administracion.js';
 
-function App() {
-  const [count, setCount] = useState(0)
+// import { useState } from 'react'
 
+// const App = () => {
+//   const [isAllowed, setIsAllowed] = useState()
+
+
+//   const functionToGetchildData = (validateRoutePortafolio) => {
+//     if (validateRoutePortafolio === '') {
+//       setIsAllowed(true)
+//     } else {
+//       setIsAllowed(false)
+//     }
+//     console.log('isAllowed', isAllowed)
+//   }
+
+//   return (
+
+//     <>
+//  <Navbar/>
+ 
+//       <HashRouter>
+
+//         <Routes>
+
+//           <Route element={<ProtectedRoute isAllowed={isAllowed} />}className='modal'>
+
+//             <Route >
+              
+//             </Route>
+            
+//           </Route>
+//           <Route  path='/src/components/uSuarios' element={<Usuarios />}/>
+//           <Route  path='/src/components/tablaUsuarios' element={<TablaUsuarios />}/>
+//           <Route path='/src/components/administracion/' element={<Administracion />} />
+//           <Route path='/src/components/mensaje' element={<Mensaje childToParentData={functionToGetchildData} />}/>
+//           <Route  path='/portafolio' element={<Portafolio/>}/>
+          
+//         </Routes>
+//       </HashRouter>
+//       <Portafolio className='modal'>
+
+//       </Portafolio>
+
+
+//     </>
+
+//   );
+// }
+
+// export default App;
+
+import React from 'react'
+
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>App</div>
   )
 }
 
