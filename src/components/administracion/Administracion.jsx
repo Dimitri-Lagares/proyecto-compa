@@ -48,7 +48,7 @@ const Administracion = ({ childToParentData }) => {
             }).then((response) => {
                 
 
-                navigate('/usuarios')
+                navigate('usuarios')
                 setAlertUsuario(true)
 
             })
