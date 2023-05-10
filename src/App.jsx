@@ -1,7 +1,7 @@
 import React from 'react'
 import Portafolio from './components/portafolio/Portafolio'
 import Navbar from './components/portafolio/Navbar/Navbar'
-import './app.css'
+import './App.css'
 
 const App = () => {
   return (
